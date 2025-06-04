@@ -39,6 +39,11 @@
             bindings = <&mo 3>;
             key-positions = <39 40>;
         };
+
+        layer4_combo {
+            bindings = <&tog 4>;
+            key-positions = <16 19>;
+        };
     };
 
     keymap {
