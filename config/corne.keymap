@@ -23,7 +23,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CAPSLOCK_LAYER1";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&kp CAPSLOCK>;
+            bindings = <&mo 1>, <&kp LEFT_ALT>;
 
             tapping-term-ms = <240>;
         };
