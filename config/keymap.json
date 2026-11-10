@@ -1,0 +1,40 @@
+{
+  "keyboard": "corne",
+  "keymap": "default",
+  "layout": "LAYOUT",
+  "layer_names": [
+    "default",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "layers": [
+    [
+                       "&kp TAB",  "&kp Q",  "&kp W",           "&kp E",     "&kp R",     "&kp T",       "&kp Y",               "&kp U",        "&kp I",   "&kp O",         "&kp P",                "&kp BACKSLASH",
+       "&mt LEFT_SHIFT LEFT_ALT",  "&kp A",  "&kp S",           "&kp D",   "&lt 4 F",   "&lt 2 G",     "&lt 2 H",             "&lt 4 J",        "&kp K",   "&kp L", "&kp SEMICOLON", "&mt RIGHT_SHIFT SINGLE_QUOTE",
+              "&mt LCTRL ESCAPE",  "&kp Z",  "&kp X",           "&kp C",     "&kp V",     "&kp B",       "&kp N",               "&kp M",    "&kp COMMA", "&kp DOT",      "&kp FSLH",          "&mt RIGHT_ALT GRAVE",
+                                                      "&layer1_windows", "&kp LCTRL", "&kp SPACE", "&lt 2 SPACE", "&mt RCTRL BACKSPACE", "&lt 1 DELETE"
+    ], [
+       "&trans",    "&kp NUMBER_1", "&kp NUMBER_2", "&kp NUMBER_3",   "&kp NUMBER_4",           "&kp N5",      "&kp NUMBER_6",          "&kp N7",        "&kp N8",               "&kp N9",                "&kp N0",            "&none",
+       "&trans", "&kp EXCLAMATION",  "&kp AT_SIGN",    "&kp POUND",     "&kp DOLLAR",      "&kp PERCENT",         "&kp CARET",   "&kp AMPERSAND",  "&kp ASTERISK", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp SINGLE_QUOTE",
+       "&trans",           "&none",  "&kp KP_PLUS", "&kp KP_MINUS", "&kp LEFT_BRACE", "&kp LEFT_BRACKET", "&kp RIGHT_BRACKET", "&kp RIGHT_BRACE",         "&none",            "&kp EQUAL",             "&kp UNDER",           "&trans",
+                                                          "&trans",         "&trans",           "&trans",            "&trans",          "&trans", "&kp RIGHT_ALT"
+    ], [
+        "&none", "&kp F1",  "&kp F2",  "&kp F3",    "&kp F4", "&kp KP_NUMBER_0",   "&kp HOME", "&kp PAGE_DOWN", "&kp PAGE_UP",   "&kp END",  "&none",  "&none",
+        "&none", "&kp F5",  "&kp F6",  "&kp F7", "&kp UNDER", "&kp KP_NUMBER_0",   "&kp LEFT",      "&kp DOWN",      "&kp UP", "&kp RIGHT",  "&none",  "&none",
+        "&none", "&kp F9", "&kp F10", "&kp F11",   "&kp F12",       "&kp UNDER", "&kp DOLLAR",         "&none",       "&none",     "&none",  "&none",  "&none",
+                                       "&trans",    "&trans",          "&trans",     "&trans",        "&trans",      "&trans"
+    ], [
+        "&soft_off",        "&none",        "&none",        "&none",        "&none",        "&none",   "&kp C_VOLUME_UP",  "&none",  "&none",  "&none",  "&none", "&soft_off",
+       "&bt BT_CLR", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4", "&kp C_VOLUME_DOWN",  "&none",  "&none",  "&none",  "&none",     "&none",
+            "&none",        "&none",        "&none",        "&none",        "&none",        "&none",        "&kp K_MUTE",  "&none",  "&none",  "&none",  "&none",     "&none",
+                                                            "&none",        "&none",        "&none",             "&none",  "&none",  "&none"
+    ], [
+         "&kp K_COFFEE",    "&kp N1",    "&kp N2",        "&kp N3",               "&kp N4",               "&kp N5",                "&kp N6",                "&kp N7",           "&kp N8",    "&kp N9",      "&kp N0", "&kp PRINTSCREEN",
+       "&kp LEFT_SHIFT", "&kp MINUS", "&kp EQUAL", "&kp LESS_THAN",       "&kp LEFT_BRACE",             "&kp LBKT",              "&kp RBKT",       "&kp RIGHT_BRACE", "&kp GREATER_THAN", "&kp EQUAL", "&kp KP_PLUS", "&kp RIGHT_SHIFT",
+               "&trans",    "&trans",    "&trans",        "&trans", "&kp LEFT_PARENTHESIS", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp RIGHT_PARENTHESIS",        "&kp TILDE",    "&trans",      "&trans",          "&trans",
+                                                          "&trans",       "&kp LEFT_SHIFT",            "&kp SPACE",             "&kp SPACE",         "&kp BACKSPACE",       "&kp DELETE"
+    ]
+  ]
+}

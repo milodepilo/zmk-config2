@@ -1,0 +1,61 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    behaviors {
+        layer1_windows: layer1_windows {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LAYER1_WINDOWS";
+            bindings = <&mo 1>, <&kp LEFT_WIN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        mo_layer3 {
+            bindings = <&mo 3>;
+            key-positions = <37 38>;
+        };
+
+        layer-3-right {
+            bindings = <&mo 3>;
+            key-positions = <39 40>;
+        };
+
+        layer4_combo {
+            bindings = <&tog 4>;
+            key-positions = <24 35>;
+        };
+
+        double_space_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <38 39>;
+        };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <16 38>;
+        };
+
+        bootloader-right {
+            bindings = <&bootloader>;
+            key-positions = <39 19>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+{{rendered_layers}}
+    };
+};
